@@ -1,0 +1,352 @@
+
+.App-header {
+  background-color: white;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.frame{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 37px 0px;
+  gap: 0px;
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  width: 167px;
+    height: 23px;
+  left: 35px;
+  top: 0px;
+  font-size: 42px;
+  background: #F8F9FD;
+}
+
+.black{
+  color: black;
+}
+
+.blue{
+  color: blue;
+}
+
+.dollar{
+  position: absolute;
+  right: 8.33%;
+  width: 19px;
+  height: 18px;
+  top: 24px;
+  bottom: 8.33%;
+  left: 1300px;
+  border: 3px solid #6F57E9;
+}
+
+.purple{
+  position: absolute;
+  color: #6F57E9;
+  font-weight: bolder;
+  font-size: large;
+  top:-22px;
+  left: 4px;
+}
+
+.track{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12.4444px 19.5556px;
+gap: 8.89px;
+
+width: 122px;
+height: 8px;
+
+background: #6F57E9;
+border-radius: 13px;
+position: absolute;
+left: 1330px;
+top: 19px;
+}
+
+.white{
+  color: white;
+}
+
+.main{
+  position: absolute;
+width: 1016px;
+height: 84px;
+left: 212px;
+top: 148px;
+}
+
+.upper{
+  position: absolute;
+width: 595px;
+height: 50px;
+left: 210.5px;
+top: 0px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 50px;
+text-align: center;
+}
+
+.lower{
+position: absolute;
+width: 1016px;
+height: 26px;
+left: 0px;
+top: 58px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+}
+
+.search_bar{
+  position: absolute;
+width: 1287px;
+height: 82px;
+left: 76px;
+top: 320px;
+
+background: #FFFFFF;
+box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+border-radius: 14px;
+}
+
+.group{
+  position: absolute;
+width: 1264px;
+height: 52px;
+left: 7px;
+top: 15px;
+}
+
+.sea{
+  position: absolute;
+width: 327px;
+height: 52px;
+left: 7px;
+top: 15px;
+
+border-radius: 14px;
+}
+
+.origin_intial{
+  width: 52px;
+    position: absolute;
+    left: 15px;
+    top: -14px;
+}
+
+.grey_intial{
+  left: 81px;
+  position: absolute;
+  color: grey;
+  border: transparent;
+}
+.origin_final{
+  position: absolute;
+  left: 354px;
+  width: 48px;
+  top: -11px;
+}
+.grey_final{
+  left: 410px;
+    position: absolute;
+    color: grey;
+    border: transparent;
+}
+.origin_cal{
+  width: 76px;
+  position: absolute;
+  left: 648px;
+  top: -10px;
+}
+.grey_cal{
+  position: absolute;
+  width: 104px;
+  left: 747px;
+  border: transparent;
+}
+.origin_ship{
+  width: 73px;
+    position: absolute;
+    left: 998px;
+    top: -9px;
+}
+.grey_ship{
+  left: 1088px;
+  position: absolute;
+  color: grey;
+  border: transparent;
+}
+
+.origin_go{
+  position: absolute;
+  width: 74px;
+  left: 1195px;
+}
+
+.down{
+  position: absolute;
+width: 1633px;
+height: 890px;
+left: -11px;
+top: 860px;
+}
+
+.services{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 1375px;
+height: 292px;
+left: 32px;
+top: 564px;
+}
+
+.title{
+  width: 128px;
+height: 40px;
+
+/* Heading03 Semi bold */
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 120%;
+/* identical to box height, or 40px */
+
+text-align: center;
+
+color: #000000;
+  left: 611px;
+  top: -88px;
+  position: absolute;
+}
+.freight_services{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 28px 24px;
+gap: 20px;
+
+width: 231px;
+height: 112px;
+
+background: #FFFFFF;
+box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+
+left: 100px;
+position: absolute;
+}
+
+.Business_services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  gap: 20px;
+  
+  width: 231px;
+  height: 112px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  
+  left: 400px;
+  position: absolute;
+}
+
+.Shipping_services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  gap: 20px;
+  
+  width: 231px;
+  height: 112px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  
+  left: 700px;
+  position: absolute;
+}
+
+.Support{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  gap: 20px;
+  
+  width: 231px;
+  height: 112px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  
+  left: 1000px;
+  position: absolute;
+}
+
+.sub_title_1, .sub_title_2, .sub_title_3, .sub_title_4{
+  font-weight: bold;
+    top: 18px;
+    left: 53px;
+    position: absolute;
+}
+
+.img_title_1 , .img_title_2, .img_title_3 , .img_title_4{
+  width: 23px;
+    position: absolute;
+    top: 20px;
+}
+
+.h_line{
+ 
+  width: 224px;
+  position: absolute;
+  top: 60px;
+  height: 0px;
+  border: 0.7px solid #9E9E9E;
+
+}
+
+.det{
+  width: 245px;
+  height: 14px;
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+/* or 21px */
+
+
+color: #535353;
+}
